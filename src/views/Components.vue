@@ -1,7 +1,5 @@
 <template>
-  <div class="home">
-    <!--    <img alt="Vue logo" src="../assets/logo.png"/>-->
-
+  <div class="components">
     <div>
       <h1>GithubCard component</h1>
       <hr />
@@ -29,7 +27,7 @@ import TestimonialCard from "@/components/tailwindcss/TestimonialCard";
 import CardUI1 from "@/components/tailwindcss/CardUI1";
 
 export default {
-  name: "Home",
+  name: "Components",
   components: {
     CardUI1,
     TestimonialCard,
