@@ -10,7 +10,14 @@
       <div> <ButtonsWithCounter></ButtonsWithCounter> </div>
       <div><AvatarWithUsername></AvatarWithUsername>  </div>
       <div> <ButtonsWithSVGIcons1></ButtonsWithSVGIcons1> </div>
-      <div>  </div>
+      <div> <ButtonsWithIcons></ButtonsWithIcons> </div>
+      <div> <Buttons3></Buttons3> </div>
+      <div><LabelTag></LabelTag>  </div>
+      <div>  <GenderBottomBtn></GenderBottomBtn></div>
+      <div> <NiceLookingButtons></NiceLookingButtons> </div>
+      <div> <PaginationButtons1></PaginationButtons1> </div>
+      <div> <InputTags></InputTags> </div>
+      <div> <LabeledTagGithubStyle></LabeledTagGithubStyle> </div>
       <div>  </div>
       <div>  </div>
 
@@ -100,14 +107,33 @@
       <div> <FlexibleTags1></FlexibleTags1> </div>
       <div>  <CardHeroSection></CardHeroSection></div>
       <div> <FeatureSection></FeatureSection> </div>
-      <div>  </div>
-      <div>  </div>
-      <div>  </div>
-      <div>  </div>
-      <div>  </div>
-      <div>  </div>
-      <div>  </div>
-      <div>  </div>
+      <div> <EventCard1></EventCard1> </div>
+      <div><ResponsiveCardDesign></ResponsiveCardDesign>  </div>
+      <div> <WeatherWidget></WeatherWidget> </div>
+      <div> <SourceCodeCard></SourceCodeCard> </div>
+      <div><SimpleTerminal></SimpleTerminal>  </div>
+      <div> <NotificationsCard></NotificationsCard> </div>
+      <div> <MacTerminal></MacTerminal>  </div>
+<!--      <div> <WeatherCard2></WeatherCard2> </div>-->
+      <div> <ProductCardWithEvaluation></ProductCardWithEvaluation> </div>
+      <div> <Banner1></Banner1> </div>
+      <div> <RecentArticleCard></RecentArticleCard> </div>
+      <div> <ParagraphWithImage></ParagraphWithImage> </div>
+      <div><UserCard></UserCard>  </div>
+      <div> <ProductCard2></ProductCard2> </div>
+      <div> <TestimonialCard2></TestimonialCard2> </div>
+      <div><CardsWithTags></CardsWithTags>  </div>
+      <div><Heros></Heros>  </div>
+      <div> <DropdownCardBelowButton></DropdownCardBelowButton> </div>
+      <div> <CommerceAppCards></CommerceAppCards> </div>
+      <div> <ItemReview></ItemReview> </div>
+      <div>  <CardForListing></CardForListing></div>
+      <div> <PostCardWithTags></PostCardWithTags> </div>
+      <div> <CardList></CardList> </div>
+      <div> <CardWithAddTOCart></CardWithAddTOCart> </div>
+      <div><OverlappingProductCard></OverlappingProductCard>  </div>
+      <div> <CardWithHoverEffect></CardWithHoverEffect> </div>
+      <div><BlogPostsCard></BlogPostsCard>  </div>
       <div>  </div>
       <div>  </div>
       <div>  </div>
@@ -133,8 +159,8 @@
       <h1>Subscribe Forms</h1>
 
       <div> <SubscribeForm1></SubscribeForm1> </div>
-      <div>  </div>
-      <div>  </div>
+      <div> <SubscribeForm3></SubscribeForm3> </div>
+      <div> <SubscriptionCard></SubscriptionCard> </div>
       <div>  </div>
       <div>  </div>
     </div>
@@ -146,7 +172,7 @@
       <h1>Footers</h1>
 
       <div> <Footer1></Footer1> </div>
-      <div>  </div>
+      <div><FooterWithSubscribeForm></FooterWithSubscribeForm>  </div>
       <div>  </div>
       <div>  </div>
       <div>  </div>
@@ -166,7 +192,7 @@
 
       <h1>Headers</h1>
       <div> <ApplicationHeader1></ApplicationHeader1> </div>
-      <div>  </div>
+      <div> <HeaderWithsignIn></HeaderWithsignIn>  </div>
       <div>  </div>
       <div>  </div>
       <div>  </div>
@@ -184,14 +210,22 @@
     <div>
       <h1>Pages</h1>
       <div><AboutMePage1></AboutMePage1>  </div>
-      <div>  </div>
-      <div>  </div>
-      <div>  </div>
-      <div>  </div>
-      <div>  </div>
-      <div>  </div>
-      <div>  </div>
-      <div>  </div>
+<!--      <div><Error404Template1></Error404Template1>  </div>-->
+      <div> <LandingPage1></LandingPage1>  </div>
+      <div> <LandingPage2></LandingPage2> </div>
+<!--      <div> <TravelerHeroConcept></TravelerHeroConcept> </div>-->
+<!--      <div> <NetflixClone></NetflixClone>  </div>-->
+      <div> <ProfilePage></ProfilePage> </div>
+      <div> <NotFoundPage1></NotFoundPage1> </div>
+<!--      <div><NotFoundPage2></NotFoundPage2>  </div>-->
+      <div> <BlogPost5></BlogPost5> </div>
+      <div> <BlogHomepage2></BlogHomepage2> </div>
+      <div> <BlogPost4></BlogPost4> </div>
+      <div> <BlogPost6></BlogPost6> </div>
+      <div> <ExpensesDashboard></ExpensesDashboard> </div>
+      <div> <Teacherdashboard></Teacherdashboard> </div>
+      <div> <ForgotPasswordPage1></ForgotPasswordPage1> </div>
+      <div> <LoginPageModern></LoginPageModern> </div>
       <div>  </div>
       <div>  </div>
     </div>
@@ -200,6 +234,13 @@
 
     <div>
 
+      <h1>others</h1>
+
+      <div><FormCreate></FormCreate></div>
+      <div><StarsReview></StarsReview></div>
+      <div><ModalVue></ModalVue></div>
+      <div></div>
+      <div></div>
     </div>
 
     <hr/>
@@ -451,9 +492,125 @@ import AboutMePage1 from "@/components/tailwindcss/examples/pages/AboutMePage1";
 import FlexibleTags1 from "@/components/tailwindcss/examples/cards/FlexibleTags1";
 import CardHeroSection from "@/components/tailwindcss/examples/cards/CardHeroSection";
 import FeatureSection from "@/components/tailwindcss/examples/cards/FeatureSection";
+import EventCard1 from "@/components/tailwindcss/examples/cards/EventCard1";
+import ResponsiveCardDesign from "@/components/tailwindcss/examples/cards/ResponsiveCardDesign";
+import WeatherWidget from "@/components/tailwindcss/examples/cards/WeatherWidget";
+import SourceCodeCard from "@/components/tailwindcss/examples/cards/SourceCodeCard";
+import SimpleTerminal from "@/components/tailwindcss/examples/cards/SimpleTerminal";
+import NotificationsCard from "@/components/tailwindcss/examples/cards/NotificationsCard";
+import MacTerminal from "@/components/tailwindcss/examples/cards/MacTerminal";
+// import WeatherCard2 from "@/components/tailwindcss/examples/cards/WeatherCard2";
+// import Error404Template1 from "@/components/tailwindcss/examples/pages/Error404Template1";
+import LandingPage1 from "@/components/tailwindcss/examples/pages/LandingPage1";
+import LandingPage2 from "@/components/tailwindcss/examples/pages/LandingPage2";
+import TravelerHeroConcept from "@/components/tailwindcss/examples/pages/TravelerHeroConcept";
+import NetflixClone from "@/components/tailwindcss/examples/pages/NetflixClone";
+import ProfilePage from "@/components/tailwindcss/examples/pages/ProfilePage";
+import NotFoundPage1 from "@/components/tailwindcss/examples/pages/NotFoundPage1";
+import ProductCardWithEvaluation from "@/components/tailwindcss/examples/cards/ProductCardWithEvaluation";
+import Banner1 from "@/components/tailwindcss/examples/cards/Banner1";
+import RecentArticleCard from "@/components/tailwindcss/examples/cards/RecentArticleCard";
+import ParagraphWithImage from "@/components/tailwindcss/examples/cards/ParagraphWithImage";
+import UserCard from "@/components/tailwindcss/examples/cards/UserCard";
+import ProductCard2 from "@/components/tailwindcss/examples/cards/ProductCard2";
+import TestimonialCard2 from "@/components/tailwindcss/examples/cards/TestimonialCard2";
+import CardsWithTags from "@/components/tailwindcss/examples/cards/CardsWithTags";
+import Heros from "@/components/tailwindcss/examples/cards/Heros";
+import ButtonsWithIcons from "@/components/tailwindcss/examples/buttons/ButtonsWithIcons";
+import Buttons3 from "@/components/tailwindcss/examples/buttons/Buttons3";
+import LabelTag from "@/components/tailwindcss/examples/buttons/LabelTag";
+import DropdownCardBelowButton from "@/components/tailwindcss/examples/cards/DropdownCardBelowButton";
+import GenderBottomBtn from "@/components/tailwindcss/examples/buttons/GenderBottomBtn";
+import NiceLookingButtons from "@/components/tailwindcss/examples/buttons/NiceLookingButtons";
+import CommerceAppCards from "@/components/tailwindcss/examples/cards/CommerceAppCards";
+import PaginationButtons1 from "@/components/tailwindcss/examples/buttons/PaginationButtons1";
+import SubscribeForm3 from "@/components/tailwindcss/examples/forms/SubscribeForm3";
+import InputTags from "@/components/tailwindcss/examples/others/InputTags";
+import FormCreate from "@/components/tailwindcss/examples/forms/FormCreate";
+import StarsReview from "@/components/tailwindcss/examples/others/StarsReview";
+import HeaderWithsignIn from "@/components/tailwindcss/examples/headers/HeaderWithsignIn";
+import ItemReview from "@/components/tailwindcss/examples/cards/ItemReview";
+import LabeledTagGithubStyle from "@/components/tailwindcss/examples/buttons/LabeledTagGithubStyle";
+import FooterWithSubscribeForm from "@/components/tailwindcss/examples/footers/FooterWithSubscribeForm";
+import SubscriptionCard from "@/components/tailwindcss/examples/forms/SubscriptionCard";
+import CardForListing from "@/components/tailwindcss/examples/cards/CardForListing";
+import PostCardWithTags from "@/components/tailwindcss/examples/cards/PostCardWithTags";
+import CardList from "@/components/tailwindcss/examples/cards/CardList";
+import CardWithAddTOCart from "@/components/tailwindcss/examples/cards/CardWithAddTOCart";
+import OverlappingProductCard from "@/components/tailwindcss/examples/cards/OverlappingProductCard";
+import CardWithHoverEffect from "@/components/tailwindcss/examples/cards/CardWithHoverEffect";
+import BlogPost5 from "@/components/tailwindcss/examples/pages/BlogPost5";
+import BlogHomepage2 from "@/components/tailwindcss/examples/pages/BlogHomepage2";
+import BlogPost4 from "@/components/tailwindcss/examples/others/BlogPost4";
+import BlogPost6 from "@/components/tailwindcss/examples/pages/BlogPost6";
+import ExpensesDashboard from "@/components/tailwindcss/examples/pages/ExpensesDashboard";
+import Teacherdashboard from "@/components/tailwindcss/examples/pages/Teacherdashboard";
+import ModalVue from "@/components/tailwindcss/examples/others/ModalVue";
+import BlogPostsCard from "@/components/tailwindcss/examples/cards/BlogPostsCard";
+import ForgotPasswordPage1 from "@/components/tailwindcss/examples/pages/ForgotPasswordPage1";
+import LoginPageModern from "@/components/tailwindcss/examples/pages/LoginPageModern";
+// import NotFoundPage2 from "@/components/tailwindcss/examples/pages/NotFoundPage2";
 export default {
   name: "Components2",
   components: {
+    LoginPageModern,
+    ForgotPasswordPage1,
+    BlogPostsCard,
+    ModalVue,
+    Teacherdashboard,
+    ExpensesDashboard,
+    BlogPost6,
+    BlogPost4,
+    BlogHomepage2,
+    BlogPost5,
+    CardWithHoverEffect,
+    OverlappingProductCard,
+    CardWithAddTOCart,
+    CardList,
+    PostCardWithTags,
+    CardForListing,
+    SubscriptionCard,
+    FooterWithSubscribeForm,
+    LabeledTagGithubStyle,
+    ItemReview,
+    HeaderWithsignIn,
+    StarsReview,
+    FormCreate,
+    InputTags,
+    SubscribeForm3,
+    PaginationButtons1,
+    CommerceAppCards,
+    NiceLookingButtons,
+    GenderBottomBtn,
+    DropdownCardBelowButton,
+    LabelTag,
+    Buttons3,
+    ButtonsWithIcons,
+    Heros,
+    CardsWithTags,
+    TestimonialCard2,
+    ProductCard2,
+    UserCard,
+    ParagraphWithImage,
+    RecentArticleCard,
+    Banner1,
+    ProductCardWithEvaluation,
+    // NotFoundPage2,
+    NotFoundPage1,
+    ProfilePage,
+    NetflixClone,
+    TravelerHeroConcept,
+    LandingPage2,
+    LandingPage1,
+    // Error404Template1,
+    // WeatherCard2,
+    MacTerminal,
+    NotificationsCard,
+    SimpleTerminal,
+    SourceCodeCard,
+    WeatherWidget,
+    ResponsiveCardDesign,
+    EventCard1,
     FeatureSection,
     CardHeroSection,
     FlexibleTags1,
