@@ -1,0 +1,87 @@
+<template>
+  <div class="py-24 bg-white">
+    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row sm:items-center">
+
+      <div class="sm:px-10 md:pr-24 sm:w-6/12">
+        <div class="h-full mx-auto rounded bg-cover bg-right shadow-lg" style="min-height:500px; background-image:url(https://images.pexels.com/photos/1260968/pexels-photo-1260968.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);"></div>
+      </div>
+
+      <div class="sm:w-6/12 sm:pr-24">
+
+        <div class="text-left">
+          <p class="mt-4 text-sm leading-7 text-gray-500 font-regular">
+            Price Lists
+          </p>
+          <h3 class="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
+            Our<span class="text-indigo-600"> Pricing</span>
+          </h3>
+        </div>
+
+        <div class="mt-10">
+
+          <div class="flex flex-row justify-between items-start my-4">
+
+            <div class="text-md">
+              <p class="text-gray-900 font-semibold">Special Yummy Pizza</p>
+              <p class="text-gray-500 text-sm">Lorem ipsum, dolor sit amet consectetur</p>
+            </div>
+
+            <span class="text-indigo-600 font-bold text-2xl mt-3">
+      $6.50
+    </span>
+
+          </div>
+          <hr />
+
+          <div class="flex flex-row justify-between items-start my-4">
+
+            <div class="text-md">
+              <p class="text-gray-900 font-semibold">Special Yummy Pizza</p>
+              <p class="text-gray-500 text-sm">Lorem ipsum, dolor sit amet consectetur</p>
+            </div>
+
+            <span class="text-indigo-600 font-bold text-2xl mt-3">
+      $6.50
+    </span>
+
+          </div>
+          <hr />
+
+          <div class="flex flex-row justify-between items-start my-4">
+
+            <div class="text-md">
+              <p class="text-gray-900 font-semibold">Special Yummy Pizza</p>
+              <p class="text-gray-500 text-sm">Lorem ipsum, dolor sit amet consectetur</p>
+            </div>
+
+            <span class="text-indigo-600 font-bold text-2xl mt-3">
+      $6.50
+    </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+</template>
+
+<!--https://codepen.io/componentity/pen/yLOOwQJ-->
+<script>
+export default {
+  name: "PricingListBlock4"
+}
+</script>
+
+<style scoped lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+</style>

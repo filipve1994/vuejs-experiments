@@ -413,10 +413,10 @@ module.exports = {
 };
 -->
 
-<!--<link href="https://fonts.googleapis.com/css?family=Opens+Sans:300,400,700,900&display=swap" rel="stylesheet">
+<!--<link href="https://fonts.googleapis.com/css?family=Opens+Sans:300;400;700;900&display=swap" rel="stylesheet">
 -->
 <style scoped lang="scss">
 
-@import url("https://fonts.googleapis.com/css?family=Opens+Sans:300,400,700,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
 
 </style>
