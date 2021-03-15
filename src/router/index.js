@@ -25,6 +25,11 @@ import SingleBlogPage19 from "@/components/tailwindcss/pages/singleblogpages/Sin
 import ComingSoonPage1 from "@/components/tailwindcss/pages/comingsoon/ComingSoonPage1";
 import ComingSoonPage2 from "@/components/tailwindcss/pages/comingsoon/ComingSoonPage2";
 import AboutSectionOverviewPage from "@/components/tailwindcss/blocks/aboutsections/AboutSectionOverviewPage";
+import AuthorBoxesOverviewPage from "@/components/tailwindcss/blocks/authorboxes/AuthorBoxesOverviewPage";
+import ButtonsBlocksOverviewPage from "@/components/tailwindcss/blocks/buttonblocks/ButtonsBlocksOverviewPage";
+import AppsOverviewPage from "@/apps/AppsOverviewPage";
+import DarkMovieToggle1 from "@/apps/darkmovietoggles/DarkMovieToggle1";
+import ParallaxDepthCards from "@/apps/parallaxdepthcards/ParallaxDepthCards";
 
 Vue.use(VueRouter);
 
@@ -43,6 +48,15 @@ export const routes = [
         // which is lazy-loaded when the route is visited.
         component: () =>
             import(/* webpackChunkName: "about" */ "../views/About.vue")
+    },
+    {
+        path: "/apps",
+        name: "Apps",
+        component: AppsOverviewPage,
+        children: [
+            {path: 'DarkMovieToggle1', component: DarkMovieToggle1},
+            {path: 'ParallaxDepthCards', component: ParallaxDepthCards},
+        ]
     },
     {
         path: "/components",
@@ -69,6 +83,21 @@ export const routes = [
         name: "AboutSectionOverviewPage",
         component: AboutSectionOverviewPage
     },
+
+    {
+        path: "/authorboxesoverview",
+        name: "AuthorBoxesOverviewPage",
+        component: AuthorBoxesOverviewPage
+    },
+
+    {
+        path: "/ButtonsBlocksOverviewPage",
+        name: "ButtonsBlocksOverviewPage",
+        component: ButtonsBlocksOverviewPage
+    },
+
+
+
 
     {
         path: "/comingsoonpages",
