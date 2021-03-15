@@ -14,7 +14,7 @@
       </a>
 
       <a class="flex flex-col justify-between p-6 rounded-md h-64 max-w-md relative overflow-hidden m-4 shadow-md hover:shadow-xl bg-gray-500 transition-shadow duration-300">
-        <img class="absolute object-cover top-0 left-0 w-full h-full" src="https://source.unsplash.com/featured/?space,astronomy alt="random image name" />
+        <img class="absolute object-cover top-0 left-0 w-full h-full" src="https://source.unsplash.com/featured/?space,astronomy" alt="random image name" />
         <h3 class="relative text-white text-2xl font-black leading-tight">Understanding the power of venetian blinds</h3>
 
         <div class="card_bottom relative flex justify-between text-white">
@@ -76,7 +76,7 @@
   </div>
 </template>
 
-<!--https://codepen.io/truehello/pen/jObqrYm-->
+<!--https://codepen.io/truehello/pen/jObqrYm -->
 <script>
 export default {
   name: "CardBlockImageCard"

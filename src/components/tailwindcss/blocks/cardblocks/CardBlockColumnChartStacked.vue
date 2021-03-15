@@ -7,7 +7,7 @@
   In a proper implementation, where it represents real data, these height should be dynamically generated based on the data that feeds them.
   -->
 
-  <div>
+  <div class="flex flex-col items-center justify-center w-screen h-screen px-10 py-20 text-gray-700 bg-gray-100">
 
     <!-- Component Start -->
     <div class="flex flex-col items-center w-full max-w-screen-md p-6 pb-6 bg-white rounded-lg shadow-xl sm:p-8">
@@ -120,7 +120,7 @@
   <!--  </body>-->
 </template>
 
-<!--https://codepen.io/robstinson/pen/ZEpKvjM-->
+<!--https://codepen.io/robstinson/pen/ZEpKvjM -->
 <script>
 export default {
   name: "CardBlockColumnChartStacked"

@@ -28,12 +28,12 @@
     </div>
 
     <div id="copy" class="flex my-3 mx-auto text-gray-500">
-      <p>&copy; 2020 Workflow, inc. All rights reserved.
+      <p>&copy; 2020 Workflow, inc. All rights reserved.</p>
     </div>
   </div>
 </template>
 
-<!--https://codepen.io/itshaydendev/pen/ZEGqowx-->
+<!--https://codepen.io/itshaydendev/pen/ZEGqowx -->
 <script>
 export default {
   name: "FooterBlock8"

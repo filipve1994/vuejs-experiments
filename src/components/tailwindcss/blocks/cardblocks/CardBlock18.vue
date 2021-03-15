@@ -54,7 +54,7 @@
   </div>
 </template>
 
-<!--https://codepen.io/robstinson/pen/YzGjzgB-->
+<!--https://codepen.io/robstinson/pen/YzGjzgB -->
 <script>
 export default {
   name: "CardBlock18"

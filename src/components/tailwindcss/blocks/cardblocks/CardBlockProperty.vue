@@ -37,19 +37,21 @@
 <script>
 export default {
   name: "CardBlockProperty",
-  data: {
-    property: {
-      imageURL: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
-      imageAlt: 'An awesome proterty',
-      beds: 3,
-      baths: 2,
-      title: 'Modern home in center city',
-      priceInCents: 1900000,
-      formattedPrice: '$1,900.00',
-      reviewCount: 345,
-      rating: 4
+  data() {
+    return {
+      property: {
+        imageURL: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
+        imageAlt: 'An awesome proterty',
+        beds: 3,
+        baths: 2,
+        title: 'Modern home in center city',
+        priceInCents: 1900000,
+        formattedPrice: '$1,900.00',
+        reviewCount: 345,
+        rating: 4
+      }
     }
-  }
+  },
 }
 </script>
 

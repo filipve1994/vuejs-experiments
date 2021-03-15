@@ -27,12 +27,16 @@
           class="sm:hidden text-gray-600 focus:outline-none text-2xl"
           id="mobile-nav-btn"
       >
-        <ion-icon name="menu-outline" data-js="open-icon"></ion-icon>
-        <ion-icon
-            name="close-outline"
-            class="hidden"
-            data-js="close-icon"
-        ></ion-icon>
+<!--        <ion-icon name="menu-outline" data-js="open-icon"></ion-icon>-->
+        <i class="ion-ios-more-outline"></i>
+
+<!--        <ion-icon-->
+<!--            name="close-outline"-->
+<!--            class="hidden"-->
+<!--            data-js="close-icon"-->
+<!--        ></ion-icon>-->
+        <i class="ion-ios-close-outline hidden"></i>
+
       </button>
     </div>
     <div
@@ -89,10 +93,12 @@
             Open Wallet
           </button>
           <button class="ml-8 icon-btn">
-            <ion-icon name="logo-apple"></ion-icon>
+<!--            <ion-icon name="logo-apple"></ion-icon>-->
+            <i class="ion-social-apple"></i>
           </button>
           <button class="ml-4 icon-btn">
-            <ion-icon name="logo-google-playstore"></ion-icon>
+<!--            <ion-icon name="logo-google-playstore"></ion-icon>-->
+            <i class="ion-android-playstore"></i>
           </button>
         </div>
       </section>
@@ -101,7 +107,7 @@
 </div>
 </template>
 
-<!--https://codepen.io/mostafabahri/pen/YzwpKPe-->
+<!--https://codepen.io/mostafabahri/pen/YzwpKPe -->
 <!--https://unpkg.com/ionicons@5.0.0/dist/ionicons.js-->
 <script>
 export default {
@@ -113,6 +119,7 @@ name: "LandingPage3"
 // compiled and purged tailwind
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {

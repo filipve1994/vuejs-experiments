@@ -22,10 +22,9 @@
       </div>
     </div>
   </div>
-  <div>
 </template>
 
-<!--https://codepen.io/akramurridjal/pen/zYORBNy-->
+<!--https://codepen.io/akramurridjal/pen/zYORBNy -->
 <script>
 export default {
   name: "CardBlock17"

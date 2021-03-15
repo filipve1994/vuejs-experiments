@@ -1,13 +1,17 @@
 <template>
   <div class="antialiased text-gray-900 ">
-    <div class="bg-gray-200 min-h-screen p-8 flex items-center justify-center">
+<!--    <div class="bg-gray-200 min-h-screen p-8 flex items-center justify-center">-->
+    <div class="bg-gray-200 p-8 flex">
       <div class="bg-white rounded-lg overflow-hidden shadow-2xl xl:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2">
         <!--E11-->
         <!-- <div class="h-48 bg-cover bg-center" style="background-image:url('https://images.unsplash.com/photo-1570797197190-8e003a00c846?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80')"></div>-->
-        <img class="h-48 w-full object-cover object-end" src="https://images.unsplash.com/photo-1570797197190-8e003a00c846?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80" alt="Home in Countryside" />
+        <img class="h-48 w-full object-cover object-end"
+             src="https://images.unsplash.com/photo-1570797197190-8e003a00c846?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80"
+             alt="Home in Countryside"/>
         <div class="p-6">
           <div class="flex items-baseline">
-            <span class="inline-block bg-teal-200 text-teal-800 py-1 px-4 text-xs rounded-full uppercase font-semibold tracking-wide">New</span>
+            <span
+                class="inline-block bg-teal-200 text-teal-800 py-1 px-4 text-xs rounded-full uppercase font-semibold tracking-wide">New</span>
             <div class="ml-2 text-gray-600 text-xs uppercase font-semibold tracking-wide">
               3 beds &bull; 2 baths
             </div>
@@ -26,9 +30,10 @@
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="far fa-star"></i>
-              <span>
               </span>
+
               <span class="ml-2 text-gray-600 text-sm">34 reviews</span>
+          </span>
           </div>
         </div>
       </div>
@@ -36,7 +41,7 @@
   </div>
 </template>
 
-<!--https://codepen.io/lylia-taleb/pen/pojVGve-->
+<!--https://codepen.io/lylia-taleb/pen/pojVGve -->
 <script>
 export default {
   name: "CardBlock6"
@@ -44,5 +49,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
 
 </style>

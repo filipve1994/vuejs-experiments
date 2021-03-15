@@ -32,7 +32,7 @@
   </div>
 </template>
 
-<!--https://codepen.io/abr4xas/pen/QWEYJzN-->
+<!--https://codepen.io/abr4xas/pen/QWEYJzN -->
 <script>
 export default {
   name: "CardBlock3"

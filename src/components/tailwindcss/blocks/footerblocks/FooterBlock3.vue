@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100">
+  <div id="footerblock3" class="bg-gray-100">
     <div class="max-w-screen-lg py-10 px-4 sm:px-6 text-gray-800 sm:flex justify-between mx-auto">
       <div class="p-5 sm:w-2/12 border-r">
         <div class="text-sm uppercase text-indigo-600 font-bold">Menu</div>
@@ -136,7 +136,7 @@
 
 </template>
 
-<!--https://codepen.io/componentity/pen/dyMpRBd-->
+<!--https://codepen.io/componentity/pen/dyMpRBd -->
 <script>
 export default {
   name: "FooterBlock3"
@@ -146,7 +146,7 @@ export default {
 <style scoped lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-body {
+body, #footerblock3 {
   font-family: 'Poppins', sans-serif !important;
 }
 

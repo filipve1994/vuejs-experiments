@@ -23,7 +23,6 @@
           <li><a href="#" class="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Developer API</a></li>
           <li><a href="#" class="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Documentation</a></li>
           <li><a href="#" class="inline-block py-2 px-3 text-gray-500 hover:text-white no-underline">Guides</a></li>
-          </li>
         </ul>
         <div class="text-gray-700 flex flex-col w-full">
           <div class="inline-block py-2 px-3 text-white uppercase font-medium tracking-wide">Follow Us</div>
@@ -48,7 +47,7 @@
   </footer>
 </template>
 
-<!--https://codepen.io/devdojo/pen/WNbepgJ-->
+<!--https://codepen.io/devdojo/pen/WNbepgJ -->
 <script>
 export default {
   name: "FooterBlock9"

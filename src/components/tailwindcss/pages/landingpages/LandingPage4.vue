@@ -1,5 +1,7 @@
 <template>
-  <body class="bg-gray-200 font-sans flex flex-col items-center">
+<!--  <body class="bg-gray-200 font-sans flex flex-col items-center">-->
+  <div class="bg-gray-200 font-sans flex flex-col items-center">
+
   <header class="bg-indigo-700 w-full px-4 py-3 flex justify-center border-b-4 border-pink-500">
     <div class="max-w-4xl w-full">
       <div class="flex items-center justify-between text-pink-500">
@@ -35,7 +37,7 @@
     </div>
   </header>
 
-  <main style-= class="mt-16 w-full flex flex-col items-center">
+  <main class="mt-16 w-full flex flex-col items-center">
   <div class="max-w-4xl mx-4">
     <h2 class="pb-1 font-bold text-xl text-indigo-700 border-b border-indigo-600">How It Works</h2>
     <p class="text-sm mt-4 text-gray-600">Tailwind is designed for rapid development of modern applications. At its core, it is a robust mobile-first design system built with developer experience in mind. After using Tailwind CSS, you will find it difficult to go back to use anything else. Learn all about it in this all-inclusive course.</p>
@@ -101,11 +103,14 @@
   <footer class="bg-gray-800 w-full text-center pb-8">
     <p class="text-xs text-gray-300 font-light">Copyright © 2019 Scrimba</p>
   </footer>
-  </body>
+
+
+  </div>
+<!--  </body>-->
 </template>
 
 
-<!--https://codepen.io/tnguyen201/pen/abdzNjm-->
+<!--https://codepen.io/tnguyen201/pen/abdzNjm -->
 <script>
 export default {
 name: "LandingPage4"

@@ -749,7 +749,7 @@
   </div>
 </template>
 
-<!--https://codepen.io/getaclue-the-animator/pen/MWjdZGX-->
+<!--https://codepen.io/getaclue-the-animator/pen/MWjdZGX -->
 <script>
 export default {
   name: "LandingPage1"

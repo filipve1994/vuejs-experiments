@@ -75,7 +75,7 @@
 <!--https://codepen.io/componentity/pen/OJNLBNP-->
 <script>
 export default {
-  name: "CardBlock"
+  name: "SocialAccountCardBlock"
 }
 </script>
 

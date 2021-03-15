@@ -140,29 +140,32 @@
 
 </template>
 
-<!--https://codepen.io/jsdelarosa/pen/OeMgpK-->
+<!--https://codepen.io/jsdelarosa/pen/OeMgpK -->
 <script>
 export default {
 name: "LandingPage9",
-  data: {
-    avatar: 'https://www.alternativesjournal.ca/sites/default/files/magazine/earth-global-globe-87651.jpg',
-    styleObject: {
-      'bg-white': true,
-      'container': true,
-      'mx-auto': true,
-      'mt-2': true,
-      'mb-6': true,
-      'p-4': true,
-      'rounded': true,
-      'shadow-lg':true
-    },
-    todos: [
-      { text: 'Barras', image: "background-image: url('https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2002&q=80", link: "https://codepen.io/jsdelarosa/full/GRoBedG"},
-      { text: 'Dashboard', image: "background-image: url('https://images.unsplash.com/photo-1585562125287-d748f3097a8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80')", link:"https://codepen.io/jsdelarosa/full/KKVrLyN"},
-      { text: 'Línea', image: "background-image: url('https://images.unsplash.com/photo-1515595967223-f9fa59af5a3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80')", link: "https://codepen.io/jsdelarosa/full/pogQmaR"},
-      {text: 'Dispersión', image:"background-image: url('https://images.unsplash.com/photo-1525498128493-380d1990a112?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80')", link:"https://codepen.io/jsdelarosa/full/rNxQgvY"}
-    ]
-  }
+
+  data() {
+    return {
+      avatar: 'https://www.alternativesjournal.ca/sites/default/files/magazine/earth-global-globe-87651.jpg',
+      styleObject: {
+        'bg-white': true,
+        'container': true,
+        'mx-auto': true,
+        'mt-2': true,
+        'mb-6': true,
+        'p-4': true,
+        'rounded': true,
+        'shadow-lg':true
+      },
+      todos: [
+        { text: 'Barras', image: "background-image: url('https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2002&q=80", link: "https://codepen.io/jsdelarosa/full/GRoBedG"},
+        { text: 'Dashboard', image: "background-image: url('https://images.unsplash.com/photo-1585562125287-d748f3097a8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80')", link:"https://codepen.io/jsdelarosa/full/KKVrLyN"},
+        { text: 'Línea', image: "background-image: url('https://images.unsplash.com/photo-1515595967223-f9fa59af5a3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80')", link: "https://codepen.io/jsdelarosa/full/pogQmaR"},
+        {text: 'Dispersión', image:"background-image: url('https://images.unsplash.com/photo-1525498128493-380d1990a112?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80')", link:"https://codepen.io/jsdelarosa/full/rNxQgvY"}
+      ]
+    }
+  },
 }
 </script>
 

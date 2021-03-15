@@ -26,7 +26,7 @@
       </symbol>
     </svg>
 
-    <div class="bg-gray-200 h-screen flex justify-center items-center">
+    <div class="bg-gray-200 min-h-screen flex justify-center items-center">
       <div class="w-auto rounded-lg bg-white custom-width container mx-auto shadow-lg p-4 relative">
         <div class="">
           <span class="block font-light">MusixMatch</span>
@@ -58,7 +58,7 @@
 <!--https://codepen.io/codyjarrett_ae/pen/LYYvpmR-->
 <script>
 export default {
-  name: "CardBlock"
+  name: "CardBlock11"
 }
 </script>
 

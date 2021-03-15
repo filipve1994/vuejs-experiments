@@ -724,7 +724,7 @@
 </div>
 </template>
 
-<!--https://codepen.io/akhbar/pen/XWmKQgx-->
+<!--https://codepen.io/akhbar/pen/XWmKQgx -->
 <script>
 export default {
 name: "LandingPage7"

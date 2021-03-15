@@ -1,4 +1,7 @@
 <template>
+
+  <div id="footerblock2">
+
   <div class="bg-gray-100 pt-5">
     <div class="max-w-screen-lg px-4 sm:px-6 text-gray-800 sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto">
       <div class="p-5">
@@ -125,10 +128,10 @@
     </div>
   </div>
 
-
+  </div>
 </template>
 
-<!--https://codepen.io/componentity/pen/RwaGgLj-->
+<!--https://codepen.io/componentity/pen/RwaGgLj -->
 <script>
 export default {
   name: "FooterBlock2"
@@ -138,7 +141,7 @@ export default {
 <style scoped lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-body {
+body, #footerblock2 {
   font-family: 'Poppins', sans-serif !important;
 }
 

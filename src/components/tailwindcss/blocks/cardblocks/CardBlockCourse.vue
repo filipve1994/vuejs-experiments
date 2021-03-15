@@ -30,7 +30,7 @@
 <!--https://codepen.io/mostafableu/pen/LYYydyw-->
 <script>
 export default {
-  name: "CardBlock"
+  name: "CardBlockCourse"
 }
 </script>
 

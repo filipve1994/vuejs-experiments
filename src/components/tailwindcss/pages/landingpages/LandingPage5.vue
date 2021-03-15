@@ -556,7 +556,7 @@
 
 </template>
 
-<!--https://codepen.io/tommers/pen/ExVeGaB-->
+<!--https://codepen.io/tommers/pen/ExVeGaB -->
 <script>
 export default {
 name: "LandingPage5"

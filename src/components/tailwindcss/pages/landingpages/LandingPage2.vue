@@ -250,7 +250,7 @@
 
 </template>
 
-<!--https://codepen.io/angelcabrera/pen/JjYozeK-->
+<!--https://codepen.io/angelcabrera/pen/JjYozeK -->
 <script>
 export default {
   name: "LandingPage2"

@@ -113,7 +113,7 @@
   </footer>
 </template>
 
-<!--https://codepen.io/rhythm19/pen/RwWdKrL-->
+<!--https://codepen.io/rhythm19/pen/RwWdKrL -->
 <script>
 export default {
   name: "FooterBlock10"

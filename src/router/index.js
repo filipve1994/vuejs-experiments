@@ -30,6 +30,28 @@ import ButtonsBlocksOverviewPage from "@/components/tailwindcss/blocks/buttonblo
 import AppsOverviewPage from "@/apps/AppsOverviewPage";
 import DarkMovieToggle1 from "@/apps/darkmovietoggles/DarkMovieToggle1";
 import ParallaxDepthCards from "@/apps/parallaxdepthcards/ParallaxDepthCards";
+import BackgroundColorPicker from "@/apps/backgroundcolorpicker/BackgroundColorPicker";
+import TimeComparison from "@/apps/timecomparison/TimeComparison";
+import CardBlockOverviewPage from "@/components/tailwindcss/blocks/cardblocks/CardBlockOverviewPage";
+import CardBlockWeatherWidget1 from "@/apps/weatherwidgets/CardBlockWeatherWidget1";
+import LandingPagesOverview from "@/components/tailwindcss/pages/landingpages/LandingPagesOverview";
+import NewsTemplatePagesOverview from "@/components/tailwindcss/pages/newstemplatepages/NewsTemplatePagesOverview";
+import ContactFormPagesOverview from "@/components/tailwindcss/pages/contactformpages/ContactFormPagesOverview";
+import LandingPage1 from "@/components/tailwindcss/pages/landingpages/LandingPage1";
+import LandingPage2 from "@/components/tailwindcss/examples/pages/LandingPage2";
+import LandingPage12 from "@/components/tailwindcss/pages/landingpages/LandingPage12";
+import LandingPage11 from "@/components/tailwindcss/pages/landingpages/LandingPage11";
+import LandingPage10 from "@/components/tailwindcss/pages/landingpages/LandingPage10";
+import LandingPage9 from "@/components/tailwindcss/pages/landingpages/LandingPage9";
+import LandingPage8 from "@/components/tailwindcss/pages/landingpages/LandingPage8";
+import LandingPage5 from "@/components/tailwindcss/pages/landingpages/LandingPage5";
+import LandingPage6 from "@/components/tailwindcss/pages/landingpages/LandingPage6";
+import LandingPage7 from "@/components/tailwindcss/pages/landingpages/LandingPage7";
+import LandingPage4 from "@/components/tailwindcss/pages/landingpages/LandingPage4";
+import LandingPage3 from "@/components/tailwindcss/pages/landingpages/LandingPage3";
+import ScheduleSectionsOverviewPage
+    from "@/components/tailwindcss/blocks/schedulesections/ScheduleSectionsOverviewPage";
+import FooterBlocksOverviewPage from "@/components/tailwindcss/blocks/footerblocks/FooterBlocksOverviewPage";
 
 Vue.use(VueRouter);
 
@@ -56,6 +78,9 @@ export const routes = [
         children: [
             {path: 'DarkMovieToggle1', component: DarkMovieToggle1},
             {path: 'ParallaxDepthCards', component: ParallaxDepthCards},
+            {path: 'BackgroundColorPicker', component: BackgroundColorPicker},
+            {path: 'TimeComparison', component: TimeComparison},
+            {path: 'CardBlockWeatherWidget1', component: CardBlockWeatherWidget1},
         ]
     },
     {
@@ -96,6 +121,22 @@ export const routes = [
         component: ButtonsBlocksOverviewPage
     },
 
+    {
+        path: "/CardBlockOverviewPage",
+        name: "CardBlockOverviewPage",
+        component: CardBlockOverviewPage
+    },
+    {
+        path: "/FooterBlocksOverviewPage",
+        name: "FooterBlocksOverviewPage",
+        component: FooterBlocksOverviewPage
+    },
+    {
+        path: "/ScheduleSectionsOverviewPage",
+        name: "ScheduleSectionsOverviewPage",
+        component: ScheduleSectionsOverviewPage
+    },
+
 
 
 
@@ -118,23 +159,93 @@ export const routes = [
             {path: 'singleblogpage2', name: SingleBlogPage2, component: SingleBlogPage2},
             {path: 'singleblogpage3', name: SingleBlogPage3, component: SingleBlogPage3},
             {path: 'singleblogpage4', name: SingleBlogPage4, component: SingleBlogPage4},
-            {path: 'singleblogpage5', name: SingleBlogPage5,component: SingleBlogPage5},
-            {path: 'singleblogpage6', name: SingleBlogPage6,component: SingleBlogPage6},
-            {path: 'singleblogpage7', name: SingleBlogPage7,component: SingleBlogPage7},
-            {path: 'singleblogpage8', name: SingleBlogPage8,component: SingleBlogPage8},
-            {path: 'singleblogpage9', name: SingleBlogPage9,component: SingleBlogPage9},
-            {path: 'singleblogpage10', name: SingleBlogPage10,component: SingleBlogPage10},
-            {path: 'singleblogpage11', name: SingleBlogPage11,component: SingleBlogPage11},
-            {path: 'singleblogpage12', name: SingleBlogPage12,component: SingleBlogPage12},
-            {path: 'singleblogpage13', name: SingleBlogPage13,component: SingleBlogPage13},
-            {path: 'singleblogpage14', name: SingleBlogPage14,component: SingleBlogPage14},
-            {path: 'singleblogpage15', name: SingleBlogPage15,component: SingleBlogPage15},
-            {path: 'singleblogpage16', name: SingleBlogPage16,component: SingleBlogPage16},
-            {path: 'singleblogpage17', name: SingleBlogPage17,component: SingleBlogPage17},
-            {path: 'singleblogpage18', name: SingleBlogPage18,component: SingleBlogPage18},
-            {path: 'singleblogpage19', name: SingleBlogPage19,component: SingleBlogPage19},
+            {path: 'singleblogpage5', name: SingleBlogPage5, component: SingleBlogPage5},
+            {path: 'singleblogpage6', name: SingleBlogPage6, component: SingleBlogPage6},
+            {path: 'singleblogpage7', name: SingleBlogPage7, component: SingleBlogPage7},
+            {path: 'singleblogpage8', name: SingleBlogPage8, component: SingleBlogPage8},
+            {path: 'singleblogpage9', name: SingleBlogPage9, component: SingleBlogPage9},
+            {path: 'singleblogpage10', name: SingleBlogPage10, component: SingleBlogPage10},
+            {path: 'singleblogpage11', name: SingleBlogPage11, component: SingleBlogPage11},
+            {path: 'singleblogpage12', name: SingleBlogPage12, component: SingleBlogPage12},
+            // {path: 'singleblogpage13', name: SingleBlogPage13,component: SingleBlogPage13},
+            // {path: 'singleblogpage14', name: SingleBlogPage14,component: SingleBlogPage14},
+            // {path: 'singleblogpage15', name: SingleBlogPage15,component: SingleBlogPage15},
+            // {path: 'singleblogpage16', name: SingleBlogPage16,component: SingleBlogPage16},
+            // {path: 'singleblogpage17', name: SingleBlogPage17,component: SingleBlogPage17},
+            // {path: 'singleblogpage18', name: SingleBlogPage18,component: SingleBlogPage18},
+            // {path: 'singleblogpage19', name: SingleBlogPage19,component: SingleBlogPage19},
         ]
     },
+
+    {
+        path: "/landingpages",
+        name: "LandingPages",
+        component: LandingPagesOverview,
+        children: [
+            {path: 'LandingPage1', name: LandingPage1, component: LandingPage1},
+            {path: 'LandingPage2', name: LandingPage2, component: LandingPage2},
+            {path: 'LandingPage3', name: LandingPage3, component: LandingPage3},
+            {path: 'LandingPage4', name: LandingPage4, component: LandingPage4},
+            {path: 'LandingPage5', name: LandingPage5, component: LandingPage5},
+            {path: 'LandingPage6', name: LandingPage6, component: LandingPage6},
+            {path: 'LandingPage7', name: LandingPage7, component: LandingPage7},
+            {path: 'LandingPage8', name: LandingPage8, component: LandingPage8},
+            {path: 'LandingPage9', name: LandingPage9, component: LandingPage9},
+            {path: 'LandingPage10', name: LandingPage10, component: LandingPage10},
+            // {path: 'LandingPage11', name: LandingPage11,component: LandingPage11},
+            // {path: 'LandingPage12', name: LandingPage12,component: LandingPage12},
+
+        ]
+    },
+
+    {
+        path: "/contactformpages",
+        name: "ContactFormPages",
+        component: ContactFormPagesOverview,
+        children: [
+            {path: 'singleblogpage1', name: SingleBlogPage1, component: SingleBlogPage1},
+            {path: 'singleblogpage2', name: SingleBlogPage2, component: SingleBlogPage2},
+            {path: 'singleblogpage3', name: SingleBlogPage3, component: SingleBlogPage3},
+            {path: 'singleblogpage4', name: SingleBlogPage4, component: SingleBlogPage4},
+            {path: 'singleblogpage5', name: SingleBlogPage5, component: SingleBlogPage5},
+            {path: 'singleblogpage6', name: SingleBlogPage6, component: SingleBlogPage6},
+            {path: 'singleblogpage7', name: SingleBlogPage7, component: SingleBlogPage7},
+            {path: 'singleblogpage8', name: SingleBlogPage8, component: SingleBlogPage8},
+            {path: 'singleblogpage9', name: SingleBlogPage9, component: SingleBlogPage9},
+            {path: 'singleblogpage10', name: SingleBlogPage10, component: SingleBlogPage10},
+            {path: 'singleblogpage11', name: SingleBlogPage11, component: SingleBlogPage11},
+            {path: 'singleblogpage12', name: SingleBlogPage12, component: SingleBlogPage12},
+        ]
+    },
+
+
+    {
+        path: "/newstemplatepages",
+        name: "NewsTemplatePages",
+        component: NewsTemplatePagesOverview,
+        children: [
+            {path: 'singleblogpage1', name: SingleBlogPage1, component: SingleBlogPage1},
+            {path: 'singleblogpage2', name: SingleBlogPage2, component: SingleBlogPage2},
+            {path: 'singleblogpage3', name: SingleBlogPage3, component: SingleBlogPage3},
+            {path: 'singleblogpage4', name: SingleBlogPage4, component: SingleBlogPage4},
+            {path: 'singleblogpage5', name: SingleBlogPage5, component: SingleBlogPage5},
+            {path: 'singleblogpage6', name: SingleBlogPage6, component: SingleBlogPage6},
+            {path: 'singleblogpage7', name: SingleBlogPage7, component: SingleBlogPage7},
+            {path: 'singleblogpage8', name: SingleBlogPage8, component: SingleBlogPage8},
+            {path: 'singleblogpage9', name: SingleBlogPage9, component: SingleBlogPage9},
+            {path: 'singleblogpage10', name: SingleBlogPage10, component: SingleBlogPage10},
+            {path: 'singleblogpage11', name: SingleBlogPage11, component: SingleBlogPage11},
+            {path: 'singleblogpage12', name: SingleBlogPage12, component: SingleBlogPage12},
+            // {path: 'singleblogpage13', name: SingleBlogPage13,component: SingleBlogPage13},
+            // {path: 'singleblogpage14', name: SingleBlogPage14,component: SingleBlogPage14},
+            // {path: 'singleblogpage15', name: SingleBlogPage15,component: SingleBlogPage15},
+            // {path: 'singleblogpage16', name: SingleBlogPage16,component: SingleBlogPage16},
+            // {path: 'singleblogpage17', name: SingleBlogPage17,component: SingleBlogPage17},
+            // {path: 'singleblogpage18', name: SingleBlogPage18,component: SingleBlogPage18},
+            // {path: 'singleblogpage19', name: SingleBlogPage19,component: SingleBlogPage19},
+        ]
+    },
+
 
     // {
     //   path: "/jetstreamwelcomepage",

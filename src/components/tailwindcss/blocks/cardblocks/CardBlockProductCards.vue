@@ -32,7 +32,7 @@
 <!--https://codepen.io/tomellwood/pen/MWgJbXb-->
 <script>
 export default {
-  name: "CardBlock"
+  name: "CardBlockProductCards"
 }
 </script>
 

@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>ComingSoonPagesOverview page</h1>
     <ul class="flex flex-row flex-wrap">
       <li class="m-2" v-for="route in routes.children">
         <router-link

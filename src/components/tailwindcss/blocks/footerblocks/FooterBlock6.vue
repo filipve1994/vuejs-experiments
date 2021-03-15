@@ -37,7 +37,7 @@
   </footer>
 </template>
 
-<!--https://codepen.io/dnuss/pen/KrExwB-->
+<!--https://codepen.io/dnuss/pen/KrExwB -->
 <script>
 export default {
   name: "FooterBlock6"

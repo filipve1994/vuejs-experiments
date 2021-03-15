@@ -136,7 +136,7 @@
   </main>
 </template>
 
-<!--https://codepen.io/EvaldasBu/pen/JgBqQq-->
+<!--https://codepen.io/EvaldasBu/pen/JgBqQq -->
 <script>
 export default {
 name: "LandingPage6"

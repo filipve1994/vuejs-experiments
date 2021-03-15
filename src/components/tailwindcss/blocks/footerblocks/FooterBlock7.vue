@@ -69,7 +69,7 @@
   </div>
 </template>
 
-<!--https://codepen.io/rhythm19/pen/MWKwPrL-->
+<!--https://codepen.io/rhythm19/pen/MWKwPrL -->
 <script>
 export default {
   name: "FooterBlock7"
