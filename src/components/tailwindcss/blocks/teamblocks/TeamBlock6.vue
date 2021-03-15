@@ -253,7 +253,7 @@
   </div>
 </template>
 
-<!--https://codepen.io/lasantha/pen/bGpyJyQ-->
+<!--https://codepen.io/lasantha/pen/bGpyJyQ -->
 <script>
 export default {
   name: "TeamBlock6"

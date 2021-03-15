@@ -66,7 +66,7 @@
 
 </template>
 
-<!--https://codepen.io/componentity/pen/gOrLGwb-->
+<!--https://codepen.io/componentity/pen/gOrLGwb -->
 <script>
 export default {
   name: "BlogCardOverlayBlock11"

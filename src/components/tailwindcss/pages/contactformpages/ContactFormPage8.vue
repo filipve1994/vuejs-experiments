@@ -71,7 +71,7 @@
 
 </template>
 
-<!--https://codepen.io/componentity/pen/jOqwNjq-->
+<!--https://codepen.io/componentity/pen/jOqwNjq -->
 <script>
 export default {
   name: "ContactFormPage8"

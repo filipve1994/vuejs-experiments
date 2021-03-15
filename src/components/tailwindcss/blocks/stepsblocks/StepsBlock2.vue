@@ -74,7 +74,7 @@
 
 </template>
 
-<!--https://codepen.io/componentity/pen/LYNNXKB-->
+<!--https://codepen.io/componentity/pen/LYNNXKB -->
 <script>
 export default {
   name: "StepsBlocks2"

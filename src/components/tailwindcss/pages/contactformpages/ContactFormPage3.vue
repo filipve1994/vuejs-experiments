@@ -1,6 +1,6 @@
 <template>
 
-  <div class="max-w-screen-lg mx-auto">
+  <div id="ContactFormPage3" class="max-w-screen-lg mx-auto">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
       <div class="content">
         <p class="mt-4 text-sm leading-7 text-gray-500 font-regular uppercase">
@@ -139,7 +139,7 @@ name: "ContactFormPage3"
 <style scoped lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-body {
+body, #ContactFormPage3 {
   font-family: "Poppins", sans-serif !important;
 }
 

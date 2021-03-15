@@ -80,7 +80,7 @@
   </div>
 </template>
 
-<!--https://codepen.io/componentity/pen/jOqrKev-->
+<!--https://codepen.io/componentity/pen/jOqrKev -->
 <script>
 export default {
   name: "TeamBlock2"

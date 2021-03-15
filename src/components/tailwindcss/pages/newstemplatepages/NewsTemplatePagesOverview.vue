@@ -1,6 +1,6 @@
 <template>
   <div>
-      <h1>LandingPagesOverview page</h1>
+      <h1>NewsTemplatePagesOverview page</h1>
     <ul class="flex flex-row flex-wrap">
       <li class="m-2" v-for="route in routes.children">
         <router-link

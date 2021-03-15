@@ -1,5 +1,5 @@
 <template>
-  <div class="py-5 justify-content-center text-center text-white" style="background: #000">
+  <div id="coverblock3" class="py-5 justify-content-center text-center text-white" style="background: #000">
     <div class="my-5">
       <span style="color: #bbb;" class="text-uppercase">SubHeadline</span>
       <h1 class="mb-2 mt-2 display-5 font-weight-bold">Enter Your Headline Here</h1>
@@ -15,17 +15,18 @@
 
 </template>
 
-<!--https://codepen.io/componentity/pen/MWyXXGj-->
+<!--https://codepen.io/componentity/pen/MWyXXGj -->
 <script>
 export default {
   name: "CoverBlock3"
 }
 </script>
 
+<!--originally designed with bootstrap => TODO convert to tailwindcss-->
 <style scoped lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-body {
+bodyn #coverblock3 {
   font-family: 'Poppins', sans-serif !important;
 }
 </style>

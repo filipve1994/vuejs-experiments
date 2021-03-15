@@ -149,7 +149,7 @@
 
 </template>
 
-<!--https://codepen.io/componentity/pen/gOrRYyy-->
+<!--https://codepen.io/componentity/pen/gOrRYyy -->
 <script>
 export default {
   name: "ContactFormPage7"

@@ -72,7 +72,7 @@
 
 </template>
 
-<!--https://codepen.io/componentity/pen/KKzzrbz-->
+<!--https://codepen.io/componentity/pen/KKzzrbz -->
 <script>
 export default {
   name: "StepsBlocks1"

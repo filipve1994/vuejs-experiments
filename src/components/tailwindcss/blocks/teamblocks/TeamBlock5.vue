@@ -78,10 +78,10 @@
   </div>
 </template>
 
-<!--https://codepen.io/rhythm19/pen/XWXaVMR-->
+<!--https://codepen.io/rhythm19/pen/XWXaVMR -->
 <script>
 export default {
-  name: "TeamBlock"
+  name: "TeamBlock5"
 }
 </script>
 

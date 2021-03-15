@@ -57,10 +57,10 @@
   </div>
 </template>
 
-<!--https://codepen.io/rhythm19/pen/JjGKZLB-->
+<!--https://codepen.io/rhythm19/pen/JjGKZLB -->
 <script>
 export default {
-name: "ContactFormBlock"
+name: "ContactFormBlock2"
 }
 </script>
 

@@ -4,7 +4,7 @@
 
 <script>
 export default {
-name: "CTABlock1"
+name: "CTABlock4"
 }
 </script>
 

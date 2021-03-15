@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-screen-lg mx-auto p-5">
+  <div id="ContactFormPage4" class="max-w-screen-lg mx-auto p-5">
     <div class="grid grid-cols-1 md:grid-cols-12 border">
       <div class="bg-gray-900 md:col-span-4 p-10 text-white">
         <p class="mt-4 text-sm leading-7 font-regular uppercase">
@@ -74,6 +74,7 @@
               <polygon
                   points="142.994,142.995 83.148,142.995 83.148,157.995 157.994,157.995 157.994,43.883 142.994,43.883 		"/>
             </g>
+          </g>
           </svg>
           <span class="text-sm">24/7</span>
         </div>
@@ -101,7 +102,7 @@
         </div>
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full px-3">
-            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-email">
               Email Address
             </label>
             <input
@@ -112,10 +113,11 @@
 
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full px-3">
-            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-message">
               Your Message
             </label>
             <textarea rows="10"
+                      id="grid-message"
                       class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
 
       </textarea>
@@ -156,7 +158,7 @@ export default {
 <style scoped lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-body {
+body, #ContactFormPage4 {
   font-family: "Poppins", sans-serif !important;
 }
 

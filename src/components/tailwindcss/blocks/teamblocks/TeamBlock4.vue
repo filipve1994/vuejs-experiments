@@ -171,7 +171,7 @@
   </div>
 </template>
 
-<!--https://codepen.io/componentity/pen/RwaRBxy-->
+<!--https://codepen.io/componentity/pen/RwaRBxy -->
 <script>
 export default {
   name: "TeamBlock4"

@@ -223,7 +223,7 @@
 
 </template>
 
-<!--https://codepen.io/componentity/pen/yLOJqOd-->
+<!--https://codepen.io/componentity/pen/yLOJqOd -->
 <script>
 export default {
   name: "TeamBlock3"

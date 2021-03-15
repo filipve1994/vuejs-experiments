@@ -1,7 +1,7 @@
 <template>
 
 
-  <div class="max-w-screen-md mx-auto">
+  <div id="ContactFormPage2" class="max-w-screen-md mx-auto">
     <div class="text-center mb-16">
       <p class="mt-4 text-sm leading-7 text-gray-500 font-regular uppercase">
         Contact
@@ -86,7 +86,7 @@ export default {
 <style scoped lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-body {
+body, #ContactFormPage2 {
   font-family: "Poppins", sans-serif !important;
 }
 

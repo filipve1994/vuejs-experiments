@@ -1,6 +1,6 @@
 <template>
 
-  <div class="max-w-screen-md mx-auto p-5">
+  <div id="ContactFormPage5" class="max-w-screen-md mx-auto p-5">
     <div class="text-center mb-16">
       <p class="mt-4 text-sm leading-7 text-gray-500 font-regular uppercase">
         Contact
@@ -16,7 +16,7 @@
           <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
             First Name
           </label>
-          <input
+          <input id="grid-first-name"
               class="appearance-none bg-transparent border-b border-red-500 w-full text-gray-700 mr-3 p-4 leading-tight focus:outline-none focus:bg-gray-200"
               type="text" placeholder="Jane" aria-label="Full name">
           <p class="text-red-500 text-xs italic mt-1">Please fill out this field.</p>
@@ -26,16 +26,18 @@
             Last Name
           </label>
           <input
+              id="grid-last-name"
               class="appearance-none bg-transparent border-b border-indigo-500 w-full text-gray-700 mr-3 p-4 leading-tight focus:outline-none focus:bg-gray-200"
               type="text" placeholder="Doe" aria-label="Full name">
         </div>
       </div>
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full px-3">
-          <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+          <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-email">
             Email Address
           </label>
           <input
+              id="grid-email"
               class="appearance-none bg-transparent border-b border-indigo-500 w-full text-gray-700 mr-3 p-4 leading-tight focus:outline-none focus:bg-gray-200"
               type="email" placeholder="jane@exp.com" aria-label="Full name">
         </div>
@@ -43,10 +45,11 @@
 
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full px-3">
-          <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+          <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-message">
             Your Message
           </label>
           <textarea rows="10"
+                    id="grid-message"
                     class="appearance-none bg-transparent border-b border-indigo-500 w-full text-gray-700 mr-3 p-4 focus:bg-gray-200 leading-tight focus:outline-none"
                     type="email" placeholder="jane@exp.com" aria-label="Full name">
 
@@ -86,7 +89,7 @@ export default {
 <style scoped lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-body {
+body, #ContactFormPage5 {
   font-family: "Poppins", sans-serif !important;
 }
 

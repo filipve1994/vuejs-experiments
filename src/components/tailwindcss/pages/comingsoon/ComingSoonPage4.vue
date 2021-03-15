@@ -1,7 +1,7 @@
 <template>
   <!-- Component Code -->
 
-  <div class="relative h-screen w-full flex items-center justify-center bg-cover bg-center text-center px-5"
+  <div id="comingsoonpage4" class="relative h-screen w-full flex items-center justify-center bg-cover bg-center text-center px-5"
        style="background-image:url(https://images.pexels.com/photos/260689/pexels-photo-260689.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);">
     <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-900 opacity-75"></div>
 
@@ -95,7 +95,7 @@
 
 </template>
 
-<!--https://codepen.io/componentity/pen/poyrjmr-->
+<!--https://codepen.io/componentity/pen/poyrjmr -->
 <script>
 export default {
   name: "ComingSoonPage4"
@@ -105,7 +105,7 @@ export default {
 <style scoped lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-body {
+body, #comingsoonpage4 {
   font-family: 'Poppins', sans-serif !important;
 }
 

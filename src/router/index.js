@@ -15,13 +15,6 @@ import SingleBlogPage9 from "@/components/tailwindcss/pages/singleblogpages/Sing
 import SingleBlogPage10 from "@/components/tailwindcss/pages/singleblogpages/SingleBlogPage10";
 import SingleBlogPage11 from "@/components/tailwindcss/pages/singleblogpages/SingleBlogPage11";
 import SingleBlogPage12 from "@/components/tailwindcss/pages/singleblogpages/SingleBlogPage12";
-import SingleBlogPage13 from "@/components/tailwindcss/pages/singleblogpages/SingleBlogPage13";
-import SingleBlogPage14 from "@/components/tailwindcss/pages/singleblogpages/SingleBlogPage14";
-import SingleBlogPage15 from "@/components/tailwindcss/pages/singleblogpages/SingleBlogPage15";
-import SingleBlogPage16 from "@/components/tailwindcss/pages/singleblogpages/SingleBlogPage16";
-import SingleBlogPage17 from "@/components/tailwindcss/pages/singleblogpages/SingleBlogPage17";
-import SingleBlogPage18 from "@/components/tailwindcss/pages/singleblogpages/SingleBlogPage18";
-import SingleBlogPage19 from "@/components/tailwindcss/pages/singleblogpages/SingleBlogPage19";
 import ComingSoonPage1 from "@/components/tailwindcss/pages/comingsoon/ComingSoonPage1";
 import ComingSoonPage2 from "@/components/tailwindcss/pages/comingsoon/ComingSoonPage2";
 import AboutSectionOverviewPage from "@/components/tailwindcss/blocks/aboutsections/AboutSectionOverviewPage";
@@ -39,8 +32,6 @@ import NewsTemplatePagesOverview from "@/components/tailwindcss/pages/newstempla
 import ContactFormPagesOverview from "@/components/tailwindcss/pages/contactformpages/ContactFormPagesOverview";
 import LandingPage1 from "@/components/tailwindcss/pages/landingpages/LandingPage1";
 import LandingPage2 from "@/components/tailwindcss/examples/pages/LandingPage2";
-import LandingPage12 from "@/components/tailwindcss/pages/landingpages/LandingPage12";
-import LandingPage11 from "@/components/tailwindcss/pages/landingpages/LandingPage11";
 import LandingPage10 from "@/components/tailwindcss/pages/landingpages/LandingPage10";
 import LandingPage9 from "@/components/tailwindcss/pages/landingpages/LandingPage9";
 import LandingPage8 from "@/components/tailwindcss/pages/landingpages/LandingPage8";
@@ -52,6 +43,18 @@ import LandingPage3 from "@/components/tailwindcss/pages/landingpages/LandingPag
 import ScheduleSectionsOverviewPage
     from "@/components/tailwindcss/blocks/schedulesections/ScheduleSectionsOverviewPage";
 import FooterBlocksOverviewPage from "@/components/tailwindcss/blocks/footerblocks/FooterBlocksOverviewPage";
+import ComingSoonPage3 from "@/components/tailwindcss/pages/comingsoon/ComingSoonPage3";
+import ComingSoonPage4 from "@/components/tailwindcss/pages/comingsoon/ComingSoonPage4";
+import ComingSoonPage5 from "@/components/tailwindcss/pages/comingsoon/ComingSoonPage5";
+import NewsTemplatePage1 from "@/components/tailwindcss/pages/newstemplatepages/NewsTemplatePage1";
+import ContactFormBlocksOverviewPage
+    from "@/components/tailwindcss/blocks/contactformblocks/ContactFormBlocksOverviewPage";
+import CoverBlocksOverviewPage from "@/components/tailwindcss/blocks/coverblocks/CoverBlocksOverviewPage";
+import CTABlocksOverviewPage from "@/components/tailwindcss/blocks/ctablocks/CTABlocksOverviewPage";
+import BlogcardBlocksOverviewPage from "@/components/tailwindcss/blocks/blogcardblocks/BlogcardBlocksOverviewPage";
+import StepsBlocksOverviewPage from "@/components/tailwindcss/blocks/stepsblocks/StepsBlocksOverviewPage";
+import TeamBlocksOverviewPage from "@/components/tailwindcss/blocks/teamblocks/TeamBlocksOverviewPage";
+
 
 Vue.use(VueRouter);
 
@@ -116,6 +119,14 @@ export const routes = [
     },
 
     {
+        path: "/BlogcardBlocksOverviewPage",
+        name: "BlogcardBlocksOverviewPage",
+        component: BlogcardBlocksOverviewPage
+    },
+
+
+
+    {
         path: "/ButtonsBlocksOverviewPage",
         name: "ButtonsBlocksOverviewPage",
         component: ButtonsBlocksOverviewPage
@@ -126,6 +137,25 @@ export const routes = [
         name: "CardBlockOverviewPage",
         component: CardBlockOverviewPage
     },
+
+    {
+        path: "/ContactFormBlocksOverviewPage",
+        name: "ContactFormBlocksOverviewPage",
+        component: ContactFormBlocksOverviewPage
+    },
+    {
+        path: "/CoverBlocksOverviewPage",
+        name: "CoverBlocksOverviewPage",
+        component: CoverBlocksOverviewPage
+    },
+    {
+        path: "/CTABlocksOverviewPage",
+        name: "CTABlocksOverviewPage",
+        component: CTABlocksOverviewPage
+    },
+
+
+
     {
         path: "/FooterBlocksOverviewPage",
         name: "FooterBlocksOverviewPage",
@@ -135,6 +165,17 @@ export const routes = [
         path: "/ScheduleSectionsOverviewPage",
         name: "ScheduleSectionsOverviewPage",
         component: ScheduleSectionsOverviewPage
+    },
+    {
+        path: "/StepsBlocksOverviewPage",
+        name: "StepsBlocksOverviewPage",
+        component: StepsBlocksOverviewPage
+    },
+
+    {
+        path: "/TeamBlocksOverviewPage",
+        name: "TeamBlocksOverviewPage",
+        component: TeamBlocksOverviewPage
     },
 
 
@@ -147,6 +188,9 @@ export const routes = [
         children: [
             {path: 'comingsoonpage1', component: ComingSoonPage1},
             {path: 'comingsoonpage2', component: ComingSoonPage2},
+            {path: 'ComingSoonPage3', component: ComingSoonPage3},
+            {path: 'ComingSoonPage4', component: ComingSoonPage4},
+            {path: 'ComingSoonPage5', component: ComingSoonPage5},
         ]
     },
 
@@ -203,18 +247,15 @@ export const routes = [
         name: "ContactFormPages",
         component: ContactFormPagesOverview,
         children: [
-            {path: 'singleblogpage1', name: SingleBlogPage1, component: SingleBlogPage1},
-            {path: 'singleblogpage2', name: SingleBlogPage2, component: SingleBlogPage2},
-            {path: 'singleblogpage3', name: SingleBlogPage3, component: SingleBlogPage3},
-            {path: 'singleblogpage4', name: SingleBlogPage4, component: SingleBlogPage4},
-            {path: 'singleblogpage5', name: SingleBlogPage5, component: SingleBlogPage5},
-            {path: 'singleblogpage6', name: SingleBlogPage6, component: SingleBlogPage6},
-            {path: 'singleblogpage7', name: SingleBlogPage7, component: SingleBlogPage7},
-            {path: 'singleblogpage8', name: SingleBlogPage8, component: SingleBlogPage8},
-            {path: 'singleblogpage9', name: SingleBlogPage9, component: SingleBlogPage9},
-            {path: 'singleblogpage10', name: SingleBlogPage10, component: SingleBlogPage10},
-            {path: 'singleblogpage11', name: SingleBlogPage11, component: SingleBlogPage11},
-            {path: 'singleblogpage12', name: SingleBlogPage12, component: SingleBlogPage12},
+            // {path: 'ContactFormPage1', name: ContactFormPage1, component: ContactFormPage1},
+            // {path: 'ContactFormPage2', name: ContactFormPage2, component: ContactFormPage2},
+            // {path: 'ContactFormPage3', name: ContactFormPage3, component: ContactFormPage3},
+            // {path: 'ContactFormPage4', name: ContactFormPage4, component: ContactFormPage4},
+            // {path: 'ContactFormPage5', name: ContactFormPage5, component: ContactFormPage5},
+            // {path: 'ContactFormPage6', name: ContactFormPage6, component: ContactFormPage6},
+            // {path: 'ContactFormPage7', name: ContactFormPage7, component: ContactFormPage7},
+            // {path: 'ContactFormPage8', name: ContactFormPage8, component: ContactFormPage8},
+            // {path: 'ContactFormPage9', name: ContactFormPage9, component: ContactFormPage9},
         ]
     },
 
@@ -224,25 +265,7 @@ export const routes = [
         name: "NewsTemplatePages",
         component: NewsTemplatePagesOverview,
         children: [
-            {path: 'singleblogpage1', name: SingleBlogPage1, component: SingleBlogPage1},
-            {path: 'singleblogpage2', name: SingleBlogPage2, component: SingleBlogPage2},
-            {path: 'singleblogpage3', name: SingleBlogPage3, component: SingleBlogPage3},
-            {path: 'singleblogpage4', name: SingleBlogPage4, component: SingleBlogPage4},
-            {path: 'singleblogpage5', name: SingleBlogPage5, component: SingleBlogPage5},
-            {path: 'singleblogpage6', name: SingleBlogPage6, component: SingleBlogPage6},
-            {path: 'singleblogpage7', name: SingleBlogPage7, component: SingleBlogPage7},
-            {path: 'singleblogpage8', name: SingleBlogPage8, component: SingleBlogPage8},
-            {path: 'singleblogpage9', name: SingleBlogPage9, component: SingleBlogPage9},
-            {path: 'singleblogpage10', name: SingleBlogPage10, component: SingleBlogPage10},
-            {path: 'singleblogpage11', name: SingleBlogPage11, component: SingleBlogPage11},
-            {path: 'singleblogpage12', name: SingleBlogPage12, component: SingleBlogPage12},
-            // {path: 'singleblogpage13', name: SingleBlogPage13,component: SingleBlogPage13},
-            // {path: 'singleblogpage14', name: SingleBlogPage14,component: SingleBlogPage14},
-            // {path: 'singleblogpage15', name: SingleBlogPage15,component: SingleBlogPage15},
-            // {path: 'singleblogpage16', name: SingleBlogPage16,component: SingleBlogPage16},
-            // {path: 'singleblogpage17', name: SingleBlogPage17,component: SingleBlogPage17},
-            // {path: 'singleblogpage18', name: SingleBlogPage18,component: SingleBlogPage18},
-            // {path: 'singleblogpage19', name: SingleBlogPage19,component: SingleBlogPage19},
+            {path: 'NewsTemplatePage1', name: NewsTemplatePage1, component: NewsTemplatePage1},
         ]
     },
 

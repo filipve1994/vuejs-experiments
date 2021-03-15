@@ -1,4 +1,8 @@
 <template>
+
+  <div>
+
+
   <!-- This example requires Tailwind CSS v1.4.0+ -->
   <div class="relative bg-white md:border-2 mb-5">
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
@@ -1193,9 +1197,11 @@
     </div>
   </div>
 
+
+  </div>
 </template>
 
-<!--https://codepen.io/componentity/pen/GRZdBZp-->
+<!--https://codepen.io/componentity/pen/GRZdBZp -->
 <script>
 export default {
   name: "NewsTemplatePage1"

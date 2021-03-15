@@ -32,7 +32,7 @@
 
 </template>
 
-<!--https://codepen.io/componentity/pen/JjXRKpE-->
+<!--https://codepen.io/componentity/pen/JjXRKpE -->
 <script>
 export default {
 name: "CTABlock1"

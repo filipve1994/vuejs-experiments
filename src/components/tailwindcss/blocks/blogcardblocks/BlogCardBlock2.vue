@@ -149,7 +149,7 @@
 
 </template>
 
-<!--https://codepen.io/componentity/pen/abNoRLa-->
+<!--https://codepen.io/componentity/pen/abNoRLa -->
 <script>
 export default {
   name: "BlogCardBlock2"

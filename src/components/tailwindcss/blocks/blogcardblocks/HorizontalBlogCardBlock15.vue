@@ -115,7 +115,7 @@
 
 </template>
 
-<!--https://codepen.io/componentity/pen/yLOVrwa-->
+<!--https://codepen.io/componentity/pen/yLOVrwa -->
 <script>
 export default {
   name: "HorizontalBlogCardBlock15"

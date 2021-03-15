@@ -32,8 +32,9 @@
             </svg>
           </a>
           <a href="#">
-            <svg class="mr-3" width="16px" height="16px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;" xml:space="preserve">
+            <svg class="mr-3" width="16px" height="16px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;" xml:space="preserve">
 <g id="XMLID_826_">
 	<path id="XMLID_827_" d="M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73
 		c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783
@@ -52,8 +53,9 @@
           </a>
 
           <a href="#">
-            <svg width="19px" height="19px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 239.04 239.04" style="enable-background:new 0 0 239.04 239.04;" xml:space="preserve">
+            <svg width="19px" height="19px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 239.04 239.04" style="enable-background:new 0 0 239.04 239.04;" xml:space="preserve">
 <g>
 	<path style="fill:#FFFFFF;" d="M167.809,36.555c-22.276-0.183-44.597-1.054-66.919-0.504c-25.851,0.642-46.018,2.2-61.281,22.872
 		c-3.988,9.854-6.004,21.359-6.967,33.368c-0.183,3.163-0.367,6.417-0.596,9.763c-0.825,20.396,0.55,41.435,0.092,58.118
@@ -96,8 +98,9 @@
             </svg>
           </a>
           <a href="#">
-            <svg class="mr-3" width="16px" height="16px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;" xml:space="preserve">
+            <svg class="mr-3" width="16px" height="16px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;" xml:space="preserve">
 <g id="XMLID_826_">
 	<path id="XMLID_827_" d="M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73
 		c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783
@@ -116,8 +119,9 @@
           </a>
 
           <a href="#">
-            <svg width="19px" height="19px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 239.04 239.04" style="enable-background:new 0 0 239.04 239.04;" xml:space="preserve">
+            <svg width="19px" height="19px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 239.04 239.04" style="enable-background:new 0 0 239.04 239.04;" xml:space="preserve">
 <g>
 	<path style="fill:#FFFFFF;" d="M167.809,36.555c-22.276-0.183-44.597-1.054-66.919-0.504c-25.851,0.642-46.018,2.2-61.281,22.872
 		c-3.988,9.854-6.004,21.359-6.967,33.368c-0.183,3.163-0.367,6.417-0.596,9.763c-0.825,20.396,0.55,41.435,0.092,58.118
@@ -160,8 +164,9 @@
             </svg>
           </a>
           <a href="#">
-            <svg class="mr-3" width="16px" height="16px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;" xml:space="preserve">
+            <svg class="mr-3" width="16px" height="16px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;" xml:space="preserve">
 <g id="XMLID_826_">
 	<path id="XMLID_827_" d="M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73
 		c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783
@@ -180,8 +185,9 @@
           </a>
 
           <a href="#">
-            <svg width="19px" height="19px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 239.04 239.04" style="enable-background:new 0 0 239.04 239.04;" xml:space="preserve">
+            <svg width="19px" height="19px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 239.04 239.04" style="enable-background:new 0 0 239.04 239.04;" xml:space="preserve">
 <g>
 	<path style="fill:#FFFFFF;" d="M167.809,36.555c-22.276-0.183-44.597-1.054-66.919-0.504c-25.851,0.642-46.018,2.2-61.281,22.872
 		c-3.988,9.854-6.004,21.359-6.967,33.368c-0.183,3.163-0.367,6.417-0.596,9.763c-0.825,20.396,0.55,41.435,0.092,58.118
@@ -224,8 +230,9 @@
             </svg>
           </a>
           <a href="#">
-            <svg class="mr-3" width="16px" height="16px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;" xml:space="preserve">
+            <svg class="mr-3" width="16px" height="16px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;" xml:space="preserve">
 <g id="XMLID_826_">
 	<path id="XMLID_827_" d="M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73
 		c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783
@@ -244,8 +251,9 @@
           </a>
 
           <a href="#">
-            <svg width="19px" height="19px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 239.04 239.04" style="enable-background:new 0 0 239.04 239.04;" xml:space="preserve">
+            <svg width="19px" height="19px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 239.04 239.04" style="enable-background:new 0 0 239.04 239.04;" xml:space="preserve">
 <g>
 	<path style="fill:#FFFFFF;" d="M167.809,36.555c-22.276-0.183-44.597-1.054-66.919-0.504c-25.851,0.642-46.018,2.2-61.281,22.872
 		c-3.988,9.854-6.004,21.359-6.967,33.368c-0.183,3.163-0.367,6.417-0.596,9.763c-0.825,20.396,0.55,41.435,0.092,58.118
@@ -275,7 +283,7 @@
 
 </template>
 
-<!--https://codepen.io/componentity/pen/rNeebyJ-->
+<!--https://codepen.io/componentity/pen/rNeebyJ -->
 <script>
 export default {
   name: "TeamBlock1"

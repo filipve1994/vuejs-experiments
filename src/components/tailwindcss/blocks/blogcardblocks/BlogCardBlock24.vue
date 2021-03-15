@@ -142,7 +142,7 @@
 
 </template>
 
-<!--https://codepen.io/componentity/pen/jOqmGaP-->
+<!--https://codepen.io/componentity/pen/jOqmGaP -->
 <script>
 export default {
   name: "BlogCardBlock24"
